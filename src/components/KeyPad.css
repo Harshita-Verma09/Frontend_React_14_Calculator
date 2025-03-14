@@ -1,0 +1,32 @@
+.keyPad {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .key {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .key:active {
+    background-color: #ddd;
+  }
+  
+  .col-span-2 {
+    width: 80px;
+  }
