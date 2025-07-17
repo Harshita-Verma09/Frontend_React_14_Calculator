@@ -1,27 +1,53 @@
-# React Project Series
+# React Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern calculator app built with **React**.  
+This calculator features a responsive UI, keyboard support, and basic arithmetic operations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-- A simple and interactive calculator built using React. This calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
+## Features
 
-🚀 Features
+- Responsive calculator layout with React components
+- Supports basic operations: addition, subtraction, multiplication, division, percent, and decimal
+- AC (All Clear), C (Clear), Backspace, and equals (=) functionality
+- Keyboard and button input support
+- Styled with Tailwind CSS and custom CSS
 
-Perform basic arithmetic operations (+, -, *, /)
+---
 
-Responsive and user-friendly UI
+## Components
 
-Uses React state management for calculations
+- **Header**: Displays the current expression and result.
+- **KeyPad**: Renders calculator buttons and handles user input.
 
-Clear button to reset calculations
+---
 
-🛠️ Technologies Used
+## How to Run
 
-React.js
+1. **Clone or Download the Repository**
+   ```sh
+   git clone https://github.com/your-username/react-calculator.git
+   cd react-calculator
+   ```
 
-JavaScript (ES6+)
+2. **Install Dependencies**
+   ```sh
+   npm install
+   ```
 
-Tailwind CSS (for styling)
+3. **Start the App**
+   ```sh
+   npm start
+   ```
+   The app will open in your browser at `http://localhost:3000`.
+
+---
+
+## Customization
+
+- **Styling:**  
+  Edit Tailwind CSS classes or add your own styles for a custom look.
+- **Functionality:**  
+  Extend with scientific functions, history, or theme support.
+
+---
